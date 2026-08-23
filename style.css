@@ -1,0 +1,16 @@
+body {
+      text-align: center;
+      background-color: #2b2b2b;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    #monster {
+      font-size: 400px;
+      margin: 10px;
+      transition: transform 0.2s;
+    }
+
+    #monster:hover {
+      transform: scale(0.5); /* CSS Fun: Grows on hover! */
+    }
